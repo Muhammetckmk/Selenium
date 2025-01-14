@@ -2,7 +2,7 @@ package com.myfirstSeleniumProject;
 
 import org.junit.jupiter.api.*;
 
-public class day03_JUnitAssertions {
+public class day03_JUnitAnnotations {
 
     //@Test annotations bizim test case oluşturmamızı sağlar
     //bu en çok kullandığımız test methodudur
