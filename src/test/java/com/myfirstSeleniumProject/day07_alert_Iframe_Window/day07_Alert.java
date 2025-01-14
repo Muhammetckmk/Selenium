@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject;
+package com.myfirstSeleniumProject.day07;
 
 import com.myfirstSeleniumProject.utilities.TestBase;
 import org.junit.jupiter.api.Assertions;
