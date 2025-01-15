@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject;
+package com.myfirstSeleniumProject.day02;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

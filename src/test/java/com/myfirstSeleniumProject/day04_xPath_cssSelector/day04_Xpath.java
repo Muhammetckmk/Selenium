@@ -1,6 +1,5 @@
-package com.myfirstSeleniumProject;
+package com.myfirstSeleniumProject.day04;
 
-import com.github.javafaker.Faker;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
@@ -24,7 +23,7 @@ public class day04_Xpath {
     //app i kapat
 
 
-    static WebDriver driver;
+    public static WebDriver driver;
 
     @BeforeAll
     public static void setUp(){

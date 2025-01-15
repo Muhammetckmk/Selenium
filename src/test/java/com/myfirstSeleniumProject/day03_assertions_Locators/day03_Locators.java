@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject;
+package com.myfirstSeleniumProject.day03;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
