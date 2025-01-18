@@ -1,6 +1,6 @@
-package com.myfirstSeleniumProject.day05;
+package com.myfirstSeleniumProject.day05_checkbox_radio;
 
-import com.myfirstSeleniumProject.utilities.TestBase;
+import com.utilities.TestBase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

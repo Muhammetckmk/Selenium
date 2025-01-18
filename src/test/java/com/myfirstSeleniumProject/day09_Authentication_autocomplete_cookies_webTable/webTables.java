@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject.day09_Authentication_autocomplete;
+package com.myfirstSeleniumProject.day09_Authentication_autocomplete_cookies;
 
 import com.utilities.TestBase;
 import org.junit.jupiter.api.Assertions;
@@ -54,6 +54,7 @@ public class webTables extends TestBase {
 
         List<WebElement> allRows = driver.findElements(By.xpath("//table[@id='table1']//tr"));
 
+        System.out.println(allRows.size());
         int rowNum = 1;
         for (WebElement each : allRows) {
 
@@ -64,5 +65,27 @@ public class webTables extends TestBase {
         }
 
 
+
+        //Task 3 : Print Last row data only
+
+        String lastRow = allRows.get(allRows.size() - 1).getText();
+        System.out.println("En son satiri yazdircak ====>>>  " +lastRow);
+
+
+
+        //Task 4 : Print column 5 data in the table body
+        System.out.println("=========================================================");
+        List<WebElement> sutun5TumElement =  driver.findElements(By.xpath("//table[@id='table1']//tr//td[5]"));
+
+        int row = 1;
+        for (WebElement eachData: sutun5TumElement) {
+
+            System.out.println("Row number " + row +" =" + eachData.getText());
+            row++;
+
+
+
+
+        }
     }
 }

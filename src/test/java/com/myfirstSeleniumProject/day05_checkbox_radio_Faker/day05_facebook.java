@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject.day05;
+package com.myfirstSeleniumProject.day05_checkbox_radio;
 
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.AfterAll;

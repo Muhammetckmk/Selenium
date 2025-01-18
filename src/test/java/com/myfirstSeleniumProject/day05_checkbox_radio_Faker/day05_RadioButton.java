@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject.day05;
+package com.myfirstSeleniumProject.day05_checkbox_radio;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;

@@ -1,4 +1,4 @@
-package com.myfirstSeleniumProject.day09_Authentication_autocomplete;
+package com.myfirstSeleniumProject.day09_Authentication_autocomplete_cookies;
 
 import com.utilities.TestBase;
 import org.junit.jupiter.api.Test;
